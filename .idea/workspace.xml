@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b63807de-fe9e-45b5-9233-d76aeb3c1282" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,28 +16,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="175" column="7" lean-forward="true" selection-start-line="175" selection-start-column="7" selection-end-line="175" selection-end-column="7" />
+            <state relative-caret-position="-7046">
+              <caret line="174" column="8" lean-forward="true" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="8" />
               <folding>
                 <element signature="e#5795#5915#0" expanded="true" />
-                <marker date="1539224590000" expanded="true" signature="7242:7283" ph="{&quot;type&quot;: Object...}" />
-                <marker date="1539224590000" expanded="true" signature="7285:7372" ph="{...}" />
-                <marker date="1539224590000" expanded="true" signature="7302:7364" ph="{&quot;label&quot;: 'label'...}" />
-                <marker date="1539224590000" expanded="true" signature="7497:7561" ph="{...}" />
-                <marker date="1539224590000" expanded="true" signature="7577:7623" ph="{...}" />
-                <marker date="1539224590000" expanded="true" signature="7716:7765" ph="{...}" />
-                <marker date="1539224590000" expanded="true" signature="7784:7833" ph="{...}" />
-                <marker date="1539224590000" expanded="true" signature="7850:7899" ph="{...}" />
-                <marker date="1539224590000" expanded="true" signature="8006:8051" ph="{...}" />
-                <marker date="1539224590000" expanded="true" signature="8066:8435" ph="{...}" />
-                <marker date="1539224590000" expanded="true" signature="8072:8283" ph="/** 观察父组件传递过来的value是否变化 ...*/" />
-                <marker date="1539224590000" expanded="true" signature="8448:11376" ph="{...}" />
-                <marker date="1539224590000" expanded="true" signature="8528:8618" ph="{...}" />
-                <marker date="1539224590000" expanded="true" signature="11390:11907" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hiMixin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/hiMixin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,6 +64,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/index.vue" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -77,6 +81,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="9" />
@@ -109,6 +116,11 @@
             <path>
               <item name="h-form" type="b2602c69:ProjectViewProjectNode" />
               <item name="h-form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h-form" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h-form" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -156,12 +168,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543833991324</updated>
-      <workItem from="1543833992482" duration="259000" />
+      <workItem from="1543833992482" duration="525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259000" />
+    <option name="totallyTimeSpent" value="525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="23" width="1424" height="829" extended-state="0" />
@@ -172,7 +184,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32152587" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.58038145" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -195,43 +207,45 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/utils/spellChange.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="-14259">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/utils/hiMixin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="175" column="7" lean-forward="true" selection-start-line="175" selection-start-column="7" selection-end-line="175" selection-end-column="7" />
+        <state relative-caret-position="-7046">
+          <caret line="174" column="8" lean-forward="true" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="8" />
           <folding>
             <element signature="e#5795#5915#0" expanded="true" />
-            <marker date="1539224590000" expanded="true" signature="7242:7283" ph="{&quot;type&quot;: Object...}" />
-            <marker date="1539224590000" expanded="true" signature="7285:7372" ph="{...}" />
-            <marker date="1539224590000" expanded="true" signature="7302:7364" ph="{&quot;label&quot;: 'label'...}" />
-            <marker date="1539224590000" expanded="true" signature="7497:7561" ph="{...}" />
-            <marker date="1539224590000" expanded="true" signature="7577:7623" ph="{...}" />
-            <marker date="1539224590000" expanded="true" signature="7716:7765" ph="{...}" />
-            <marker date="1539224590000" expanded="true" signature="7784:7833" ph="{...}" />
-            <marker date="1539224590000" expanded="true" signature="7850:7899" ph="{...}" />
-            <marker date="1539224590000" expanded="true" signature="8006:8051" ph="{...}" />
-            <marker date="1539224590000" expanded="true" signature="8066:8435" ph="{...}" />
-            <marker date="1539224590000" expanded="true" signature="8072:8283" ph="/** 观察父组件传递过来的value是否变化 ...*/" />
-            <marker date="1539224590000" expanded="true" signature="8448:11376" ph="{...}" />
-            <marker date="1539224590000" expanded="true" signature="8528:8618" ph="{...}" />
-            <marker date="1539224590000" expanded="true" signature="11390:11907" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
