@@ -1,0 +1,8 @@
+{
+  "name": "h-form",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "lodash": "^4.17.11"
+  }
+}
