@@ -180,7 +180,8 @@ import {
   isDouDecimal,
   email,
   isSpell,
-  isEcpInteger
+  isEcpInteger,
+  checkType
 } from './utils/validate'
 import {cloneDeep} from 'lodash'
 import Spell from './utils/spellChange'
@@ -228,7 +229,8 @@ export default {
       type: String,
       default: ''
     },
-    required: String,
+    required: [String, Function, RegExp],
+    input: [String, Function, RegExp],
     disabled: Boolean,
     readonly: {
       type: Boolean,
@@ -242,7 +244,6 @@ export default {
     },
     preview: Boolean,
     boxed: Boolean,
-    input: String,
     options: {
       type: Array,
       default: () => []
@@ -353,6 +354,13 @@ export default {
     validator (type, value) {
       value = Object.prototype.toString.call(value) === '[object Undefined]' ? '' : value
       value = Object.prototype.toString.call(value) === '[object Array]' ? value.length > 0 ? value : '' : value
+      if (checkType(type) === '[object RegExp]') {
+        return type.test(value) ? '' : `请输入正确的${this.label || '数据'}`
+      }
+      if (checkType(type) === '[object Function]') {
+        return type(value) ? '' : `请输入正确的${this.label || '数据'}`
+      }
+      if (checkType(type) !== '[object String]') return
       let typeArr = type ? type.split(':') : this.input ? this.input.split(':') : []
       if (this.input && !value) return false
       switch (typeArr[0] || '') {

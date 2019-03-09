@@ -59,3 +59,6 @@ export const formatTable = {
 export const isSpell = (value) => {
   return /^[A-Za-z]*$/.test(value)
 }
+export const checkType = (value) => {
+  return Object.prototype.toString.call(value)
+}

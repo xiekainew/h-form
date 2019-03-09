@@ -1,8 +1,9 @@
 {
-  "name": "h-form",
+  "name": "@xiekai2018/h-form",
   "version": "1.0.0",
   "dependencies": {},
   "devDependencies": {
     "lodash": "^4.17.11"
-  }
+  },
+  "git": "https://github.com/xiekainew/h-form.git"
 }
